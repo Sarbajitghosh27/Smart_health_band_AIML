@@ -1,7 +1,3 @@
-# Smart_health_band_AIML
-This project is a wearable health monitoring system built using ESP32 that collects physiological data via pulse and temperature sensors. The data is stored in CSV format on an SD Card, then processed using Python and Machine Learning to predict whether the user is under stress.
-Developed By
-Sarbajit Ghosh
-Electronics & Communication Engineering
-BIT Jaipur
-
+The Smart Health Monitoring Band with Stress Detection is an innovative AI+IoT-based wearable system developed to track real-time physiological parameters and predict a user's stress level using machine learning. The system is built around an ESP32 microcontroller, which gathers live data from a pulse sensor (to measure heart rate) and a temperature sensor (to record body temperature). This data is stored locally on an SD card module in CSV format, creating a structured dataset of health readings over time. The stored data is then imported into a Python environment where it is transformed into a Pandas DataFrame and labeled for machine learning purposes. Using basic classification algorithms like Logistic Regression and Decision Tree, the model is trained to distinguish between "Stress" and "No Stress" states based on the biometric inputs. The project showcases how embedded systems can be seamlessly integrated with artificial intelligence to solve real-world health problems, particularly in mental health monitoring. It also serves as a stepping stone toward more advanced wearable health solutions that can alert users or healthcare providers about abnormal conditions in real time. Future enhancements may include SpO₂ monitoring, cloud-based dashboards, and mobile integration for remote access. This project laid the foundation for my journey into AI/ML and embedded health technologies.
+~Sarbajit Ghosh
+BIT MESRA JAIPUR CAMPUS
